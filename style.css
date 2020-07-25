@@ -1,0 +1,56 @@
+*{
+	font-family: Montserrat;
+}
+
+/*styling navigation bar*/
+.Navtitle{
+	font-family: Nosifer;
+}
+
+.title{
+	margin-top: 20px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-family: Coiny,sans-serif;
+	font-size: 400%;
+}
+
+.tamil{
+	margin-top: 50px;
+}
+
+hr{
+   	height: 1px;
+    background-color: black;
+    border: none;
+}
+
+/*carousel*/
+#carousel{
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+/*gallery*/
+.Dravidian_architecture{
+	padding: 10px;
+	text-align: center;
+}
+.architecture{
+	padding: 20px;
+}
+
+#gallery{
+	margin-top: 40px;
+	padding: 20px;
+}
+
+/*footer*/
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}

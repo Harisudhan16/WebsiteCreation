@@ -1,58 +1,158 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>KNOW the UNKNOWN</title>
-</head>
-<body>
-	<h1>KNOW the UNKNOWNS</h1>
-	<!-- about us -->
-	<h3>AboutUs:</h3>
-	<p>My self V L HARISUDHAN from Erode, TamilNadu, India. Persuing M.Sc (Artificial Intelligence and Machine Learning) at Coimbatore Institute of technology. The webpage infornt of you is built to share the thoughts and knowledge that i have. This website mainly focuses on TamilNadu and tells you interesting facts and informations about ancient civilization, religious beliefs, cultures, traditions, historical monuments and more and more... The main motive of the website is to take the present and future generation to the past.  </p>
-	<!-- signin and login option -->
-	<form>
-		<h3>SignIn/Login:</h3>
-		<label>E-mail:</label>
-		<input type="E-mail" name="user_mail" placeholder="Enter e-mail">
-		<br>
-		<label>Password:</label>
-		<input type="Password" name="user_password" placeholder="Enter Password">
-		<br>
-		<input type="submit">
-	</form>
-	<!-- search option -->
-	<form>
-		<h3>Search Option:</h3>
-		<input type="search" name="User_search" placeholder="search">
-		<input type="submit">
-	</form>
-	<!-- categories -> information can be searched or choosen by the user through the category option-->
-	<form>
-		<h3>Categories:</h3>
-		<input type="button" value="categories">
-		<h3>Location:</h3>
-		<input type="button" value="Location">
-	</form>
-	<!-- video -->
-	<h3>Introductory video on Tamil:</h3>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/V9LChBJ1-B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<!-- images -->
-	<br>
-	<h3>Image1:</h3>
-	<img src="https://www.hotelierindia.com/public/images/2019/11/26/Tamilnadu-min.jpg" width="300px" >
-	<h3>Image2:</h3>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Shore_Temple_view_2_-_Mahabalipuram.jpg" width="300px">
-	<h3>Image3:</h3>
-	<img src="https://imgmedia.lbb.in/media/2019/04/5cb006026e20a824c4cd9b64_1555039746107.jpg" width="300px">
-	<!-- description -->
-	<h3>TAMIL:</h3>
-	<p>TAMILNADU is famous for its dravidian architecture, which you can see in the pictures aside. TAMIL, the only language that has perfect and essential grammars with proofs written thousands of years ago. The famous literatures are THOOLKAPIYAM,SILAPADHIKARAM,etc..The only language that was present 5000 years ago and still in use. Tamil is considered to be the oldest language in the world. And also tamil is the only language in the world to have a god on its name which is located in Karaikudi Tamilnadu, India. The above mentioned facts come into reality by the proofs found in the excavation processes that are gone and going in TAMILNADU. Thats state the power, culture, tradition,science of TAMILNADU. Not only tamilnadu is good at architecture, language but also in science. The kings were more intelligent and more creative than what we expect. Many things that we counld not do with the present technoligies were done 1000s of years without any technology in TAMILNADU by the kings, which still remains as a mystery. </p>
-	<h4>TAMIL IS NOT A LANGUAGE ITS AN EMOTION</h4>
-	<!-- user sharing with admin of the webpage -->
-	<form>
-		<h3>SHARE YOU KNOWLEDGE WITH ME</h3>
-		<input type="text" name="user_knowledge" placeholder="type here">
-		<input type="submit">
-	</form>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- css style link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- tilte font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <title>KNOW the UNKNOWNS</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="Navtitle">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">KNOW the UNKNOWNS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Tamil Language</a>
+              <a class="dropdown-item" href="#">Ancient Civilization</a>
+              <a class="dropdown-item" href="#">Historical Monuments</a>
+              <a class="dropdown-item" href="#">Kumari Kandam</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ContactUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+
+    <!-- information -->
+    <section id="information" class="container">
+      <h1 class="title">தமிழ்</h1>
+      <hr>
+      <h4 class="tamil">About TAMIL LANGUAGE:</h4>
+      <p>Tamil ia a <a href="https://en.wikipedia.org/wiki/Dravidian_languages" target="_blank" class="mw-redirect" title="Dravidian language">Dravidian language</a> spoken in TAMILNADU,INDIA. Which is recognized as the oldest language in the world and also the oldest language in <a href="https://www.mustgo.com/worldlanguages/dravidian-language-family/" target="_blank" class="mw-redirect" title="Dravidian language">Dravidian family</a>. Tamil has a history about 5000 years which is originated from TAMILBRAHMI. Tamil is the only language born before thousands of year ago and still spoken and used in TAMILNADU,INDIA. And also Tamil is the only language that is personified as god and name of the temple is TAMIL THAI, which is located in Karaikudi,TAMILNADU. The ancient tamil literatures are the one of main proofs to say that TAMIL is the oldest language in the world. The oldest ancient literature found in TamilNadu was THOLKAPPIYAM, which is difficult to date and some researchers and scholars dates in the range between 5,320 BCE and 8th century CE. Not only THOLKAPPIYAM and also many other Tamil literatures stands as proof to state "TAMIL AS THE OLDEST LANGUAGE".</p>
+      <h4 class="tamil">About TAMILIAN ARCHITECTURE:</h4>
+      <p>TAMILNADU has its own style of architecture, named <a href=" https://en.wikipedia.org/wiki/Dravidian_architecture" target="_blank" class="mw-redirect" title="Dravidian language">Dravidian architecture</a> which is famous and most used architecture in southern parts of INDIA. Where all the temples in southern states of India were built in Dravidian architecture. And also the science behind the architecture was more advanced than what we think and difficult to interpret. The advanced science in dravidian architecture was still mystery to world. The built dravidian architecured temples are the proofs for the advanced science used in dravidian architectures.</p>
+    </section>
+
+    <!-- carousel -->
+    <section id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="tamilthaitemple1.png" class="d-block w-100 " style= "height: 700px; " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tamil Thai Temple,Karaikudi.</h5>
+                <p>Temple for Tamil Mother.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="tamilgod.png" class="d-block w-100" style= "height: 700px;" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tamil Thai God</h5>
+                <p>Thamizh Annai</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+
+    <hr>
+    <!-- gallery -->
+    <section id="gallery" class="container">
+      <h1 class="text-center">Dravidian Architectured Temples</h1>
+      <br>
+      <div class="row">
+        <div class="col-sm-4 Dravidian_architecture">
+          <img src="thanjore.jpg" class="img-responsive img-fluid" width="60%">
+          <p class="architecture">Brahadeshwarar Temple, also called as peruvudaiyar kovil was built by the great king RAJA RAJA CHOLAN 1 from 1003 to 1010 AD. Which is located near the south bank of kaveri river, Thanjavur, TamilNadu. It was lord shiva temple. It crossed 1000 years and stands majestically, and the whole world speaks about the power and science intelligence of Raja Raja Cholan. The main speciality about this temple is that the dome located at the top of gopuram(tower) weighs 80 tons(a single granite stone) from 66m above the surface level. "How its possible to lift 80 tons from surface level to 66m high. Here comes the intelligence of the King Raja Raja Cholan, an elevation was made from the ground to the top of the tower and the granite stone was pulled by more than thousand
+          elephants.   </p>
+        </div>
+        <div class="col-sm-4 Dravidian_architecture">
+          <img src="madurai2.jpg" class="img-responsive img-fluid" width="82%">
+          <p class="architecture">Meenakshi-Sundareshwarar temple located at southern bank of Vaigai river at Madurai city in TamilNadu. Built by King Kulasekra Pandya between (1190-1216 CE) ie., 6th century BC. It has history about 2,500 years and its age was unprdictable. The temple has four entrances ie., four Gopurams located at 4 directions(north, south, east, west) excluding that it has another 10 Gopurams(each has its own name) and the tallest is the south gopuram(Ammani Amman Gopuram) with height of 170 ft. And the temple has more than 33,000 hand made sculptures.There is a Temple Art Museum in this 1000 pillars(985 carved pillars, built by Ariyanatha Mudaliar in 1569) hall where you can see icons, photographs, drawings, etc., exhibiting the 1200 years old history. </p>
+        </div>
+        <div class="col-sm-4 Dravidian_architecture">
+          <img src="trichy.jpg" class="img-responsive img-fluid" width="69%">
+          <p class="architecture">Ranganathaswamy temple located at river bank of Kaveri at Srirangam, Thiruchirapalli, TamilNadu. This temple is dedicated to Lord Vishnu. The temple occupies an area of 155 acres (63 ha) with 81 shrines, 21 towers, 39 pavilions, and many water tanks integrated into the complex making it the world's largest functioning Hindu temple. The temple town is a significant archaeological and epigraphical site, providing a historic window into the early and mid medieval South Indian society and culture. And this town Srirangapatna named as Srirangam is surrounded by river Kaveri and looks like an island. The inner part of the temple was built in 817 AD by a lady named Hambi. It is one of the most illustrious Vaishnava temples in South India rich in legend and history.   </p>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="logo.jpg" class="img-fluid img-responsive" width="40%">
+          </div>
+          <div class="col-sm-4 text-center">
+            <h2 style="font-size: 24px">Links</h2>
+            <hr style="border: 2px solid #FFFFFF">
+            <a href="#" class="footer-link">About</a><br>
+            <a href="#" class="footer-link">Privacy and Policy</a><br>
+            <a href="#" class="footer-link">Terms and Conditions</a><br>
+          </div>
+          <div class="col-sm-4 text-center">
+            <h2 style="font-size: 24px">Contact Us</h2>
+            <hr style="border: 2px solid #FFFFFF">
+            <p>Phone: 9842197396</p>
+            <p>E-mail: sudhanhari58@gmail.com</p>
+          </div>
+        </div>
+        <p>Copyright &copy; Know the Unknowns 2020. All Rights Reserved.Made with &hearts; in India</p>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
